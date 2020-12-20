@@ -8,19 +8,19 @@ You will probably have all of this already, but if not..
 
 1. Install Java 11: `https://www.oracle.com/java/technologies/javase-jdk11-downloads.html` (Recommended, login necessary)
 
-    * or OpenJDK 11: `https://adoptopenjdk.net/`
+* or OpenJDK 11: `https://adoptopenjdk.net/`
 
-    * *other Java providers are available, but it's recommended to avoid them unless you know what you are doing.*
+* *other Java providers are available, but it's recommended to avoid them unless you know what you are doing.*
 
 2. Install git: `https://git-scm.com/downloads`
 
 3. Install Maven: `https://maven.apache.org/download.cgi`
 
-    * macOS: `brew install maven`
+* macOS: `brew install maven`
 
-    * Linux: `sudo apt install maven`
+* Linux: `sudo apt install maven`
 
-    * Windows: follow these instructions `https://mkyong.com/maven/how-to-install-maven-in-windows/` (tedius)
+* Windows: follow these instructions `https://mkyong.com/maven/how-to-install-maven-in-windows/` (tedius)
 
 4. Install NodeJS LTS: `https://nodejs.org/en/download/`
 
@@ -28,14 +28,15 @@ You will probably have all of this already, but if not..
 
 Run the following commands to download and compile all the plugins:
 
-    * `npm install`
-    * `npm start`
+* `npm install`
+
+* `npm start`
 
 ### Versions
 
 You can specify a particular version by doing
 
-    * `npm start -- --version=1.16.1`
+`npm start -- --version=1.16.1`
 
 *(Yes, that first double dash is necessary, it tells node to pass through the arguments to the script being run.)*
 
