@@ -1,15 +1,43 @@
 # PaperBuilder
 
-This project is intended to be the Paper version of BuildTools where you select a version and it'll compile and install the resulting Paper jar. This has the added benefit of being able to replace, for example:
-```xml
-<dependency>
-  <groupId>org.spigotmc</groupId>
-  <artifactId>spigot</artifactId>
-  <version>1.16.1-R0.1-SNAPSHOT</version>
-  <scope>provided</scope>
-</dependency>
-```
-...with:
+This is a quick and easy way of installing Paper locally as you would with Spigot / Bukkit.
+
+## Dependencies
+
+You will probably have all of this already, but if not..
+
+1. Install Java 11: `https://www.oracle.com/java/technologies/javase-jdk11-downloads.html` (Recommended, login necessary)
+
+    * or OpenJDK 11: `https://adoptopenjdk.net/`
+
+    * *other Java providers are available, but it's recommended to avoid them unless you know what you are doing.*
+
+2. Install git: `https://git-scm.com/downloads`
+
+3. Install Maven: `https://maven.apache.org/download.cgi`
+
+    * macOS: `brew install maven`
+
+    * Linux: `sudo apt install maven`
+
+    * Windows: follow these instructions `https://mkyong.com/maven/how-to-install-maven-in-windows/` (tedius)
+
+4. Install NodeJS LTS: `https://nodejs.org/en/download/`
+
+## Install
+
+Run the following commands to download and compile all the plugins:
+
+    * `npm install`
+    * `npm start`
+
+### Windows
+
+If you're using Windows, you'll need to run those npm commands inside of Git Bash or WSL.
+
+## Usage
+
+Put the following in your project's dependencies
 ```xml
 <dependency>
   <groupId>com.destroystokyo.paper</groupId>
@@ -18,4 +46,3 @@ This project is intended to be the Paper version of BuildTools where you select 
   <scope>provided</scope>
 </dependency>
 ```
-which then grants you access to the deobfuscation efforts and any custom features added to Paper's server code.

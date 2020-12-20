@@ -14,3 +14,7 @@ continuation_indent_size = 8
 
 [*.{command,sh}]
 end_of_line = lf
+
+[*.{js,json}]
+indent_style = space
+indent_size = 4
