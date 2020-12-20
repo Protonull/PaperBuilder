@@ -31,6 +31,14 @@ Run the following commands to download and compile all the plugins:
     * `npm install`
     * `npm start`
 
+### Versions
+
+You can specify a particular version by doing
+
+    * `npm start -- --version=1.16.1`
+
+*(Yes, that first double dash is necessary, it tells node to pass through the arguments to the script being run.)*
+
 ### Windows
 
 If you're using Windows, you'll need to run those npm commands inside of Git Bash or WSL.

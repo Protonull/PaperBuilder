@@ -2,8 +2,10 @@
     "name": "paperbuilder",
     "version": "1.0.0",
     "description": "",
-    "exports": "./installer.js",
     "homepage": "https://github.com/Protonull/PaperBuilder#readme",
+    "scripts": {
+        "start": "node installer.js"
+    },
     "repository": {
         "type": "git",
         "git": "git+https://github.com/Protonull/PaperBuilder.git"
