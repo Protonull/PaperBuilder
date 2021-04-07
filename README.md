@@ -8,21 +8,21 @@ You will probably have all of this already, but if not..
 
 1. Install Java 11: `https://www.oracle.com/java/technologies/javase-jdk11-downloads.html` (Recommended, login necessary)
 
-  * or OpenJDK 11: `https://adoptopenjdk.net/`
+    * or OpenJDK 11: `https://adoptopenjdk.net/`
 
-  * *other Java providers are available, but it's recommended to avoid them unless you know what you are doing.*
+    * *other Java providers are available, but it's recommended to avoid them unless you know what you are doing.*
 
 2. Install git: `https://git-scm.com/downloads`
 
 3. Install Maven: `https://maven.apache.org/download.cgi`
 
-  * macOS: `brew install maven`
+    * macOS: `brew install maven`
 
-  * Linux: `sudo apt install maven`
+    * Linux: `sudo apt install maven`
 
-  * Windows (Chocolatey): `choco install maven`
+    * Windows (Chocolatey): `choco install maven`
 
-  * Windows: follow these instructions `https://mkyong.com/maven/how-to-install-maven-in-windows/` (tedius)
+    * Windows: follow these instructions `https://mkyong.com/maven/how-to-install-maven-in-windows/` (tedius)
 
 4. Install jq: `https://webinstall.dev/jq/`
 
@@ -30,7 +30,7 @@ You will probably have all of this already, but if not..
 
 Run the following commands to install Paper locally:
 
-  * `bash installer.bash`
+* `bash installer.bash`
 
 ### Versions
 
@@ -47,9 +47,9 @@ If you're using Windows, you'll need to run those commands inside of Git Bash or
 Put the following in your project's dependencies
 ```xml
 <dependency>
-  <groupId>com.destroystokyo.paper</groupId>
-  <artifactId>paper</artifactId>
-  <version>1.16.5-R0.1-SNAPSHOT</version>
-  <scope>provided</scope>
+    <groupId>com.destroystokyo.paper</groupId>
+    <artifactId>paper</artifactId>
+    <version>1.16.5-R0.1-SNAPSHOT</version>
+    <scope>provided</scope>
 </dependency>
 ```
