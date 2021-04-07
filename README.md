@@ -20,29 +20,27 @@ You will probably have all of this already, but if not..
 
   * Linux: `sudo apt install maven`
 
+  * Windows (Chocolatey): `choco install maven`
+
   * Windows: follow these instructions `https://mkyong.com/maven/how-to-install-maven-in-windows/` (tedius)
 
-4. Install NodeJS LTS: `https://nodejs.org/en/download/`
+4. Install jq: `https://webinstall.dev/jq/`
 
 ## Install
 
 Run the following commands to install Paper locally:
 
-  * `npm install`
-
-  * `npm start`
+  * `bash installer.bash`
 
 ### Versions
 
 You can specify a particular version by doing
 
-`npm start -- --version=1.16.1`
-
-*(Yes, that first double dash is necessary, it tells node to pass through the arguments to the script being run.)*
+`bash installer.bash --rev 1.16.5`
 
 ### Windows
 
-If you're using Windows, you'll need to run those npm commands inside of Git Bash or WSL.
+If you're using Windows, you'll need to run those commands inside of Git Bash or WSL.
 
 ## Usage
 
@@ -51,7 +49,7 @@ Put the following in your project's dependencies
 <dependency>
   <groupId>com.destroystokyo.paper</groupId>
   <artifactId>paper</artifactId>
-  <version>1.16.1-R0.1-SNAPSHOT</version>
+  <version>1.16.5-R0.1-SNAPSHOT</version>
   <scope>provided</scope>
 </dependency>
 ```
