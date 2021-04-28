@@ -67,6 +67,6 @@ git init ${paperDir} -q
     git fetch -q origin master;
     git reset -q --hard $commit;
     echo "Installing Paper";
-    ./paper build)
+    ./paper jar)
 
 echo "${blue}Done :)"
