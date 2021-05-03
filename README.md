@@ -24,7 +24,7 @@ You will probably have all of this already, but if not..
 
     * Windows: follow these instructions `https://mkyong.com/maven/how-to-install-maven-in-windows/` (tedius)
 
-4. Install jq: `https://webinstall.dev/jq/`
+4. Install jq: `https://stedolan.github.io/jq/download/`
 
 ## Install
 
